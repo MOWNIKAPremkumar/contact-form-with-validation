@@ -1,0 +1,10 @@
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "application/javascript; charset=UTF-8"
+
+
+[[redirects]]
+from="/*"
+to="/index.html"
+status=200
